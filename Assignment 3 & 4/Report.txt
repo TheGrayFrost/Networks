@@ -1,0 +1,5 @@
+All the wireshark Statistics have been attached in the respective folders of UDP/TCP.
+
+UDP datagram information asked is impossible to capture, because there is no log kept except timeout which is not known to network. Plus, there is no sequence number to tell the duplicate packets.
+
+UDP as expected takes less time in transmission than TCP, because of no additional acknowledgement overhead.
